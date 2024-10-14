@@ -1,0 +1,6 @@
+1. Different ways to create an object in java?
+
+2. How do you keep the count of active number of object in class?
+
+3. For final variable we need to create the parametrised constructor to initialize. And once initialize the variable we can't change variable value
+   We have to delete the object and recreate 
