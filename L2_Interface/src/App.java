@@ -7,6 +7,7 @@ public class App {
 		
 		sq.area();
 		sq.peri();
+		sq.display();
 		
 		Circle c = new Circle();
 		c.area();

@@ -5,8 +5,9 @@ public class Circle implements Area{
 	@Override
 	public void area() {
 		// TODO Auto-generated method stub
+		//pi = 3.2;
 		
-		double a = 3.14 * rad * rad;
+		double a = pi * rad * rad;
 		
 		System.out.println(a);
 		

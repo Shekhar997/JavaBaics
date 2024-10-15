@@ -36,3 +36,36 @@
 8. Difference between this() and this.
 	- this() - its use to call the constructor of the current class
 	- this. -> its use to point to the object of current class
+	
+9. What is abstract function 
+	- Any function which has only declaration and no body 
+	
+10. Interface
+	- Group of function which are abstract in nature
+	
+11. If two interface have the same method then what will happen?
+	- If class implements two interface and both have same method then nothing will happen methods are abstract in nature 
+	
+12. Why only static final variables used in interface?
+	- Any variable inside the interface is by default public, by default static and final in nature
+	
+13. Can we have the methods with body in interface?
+	- Yes, we can have default methods in interface with the body. These methods can be used as it is. We can change the body inside the class by overriding the method
+	
+14. Two interface with same default method can exists?
+	- Nope, it will give compile time error. Solution - We can override the methods and then use
+	
+15. Which pillar of oops are used in interface?
+	-> Abstraction and inheritance
+
+16. What are functional and  marker Interface?
+
+17. What are the keywords associated with Interface variable and why?
+
+18. Exception Handling 
+	- Logic to handle errors/exceptions in the code.
+
+19. Different types of exception
+	- Compile Time (Checked Exception) - SqlException,FileNotFound, 
+	- Run Time (Unchecked Exception) - 
+
