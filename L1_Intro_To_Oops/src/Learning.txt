@@ -4,3 +4,35 @@
 
 3. For final variable we need to create the parametrised constructor to initialize. And once initialize the variable we can't change variable value
    We have to delete the object and recreate 
+   
+4. Whenever we are creating a class we have to judge should it be a child class or should it be a variable inside a class
+   -> Is a and has a relationship
+   --> Anything which is a class is inheritance 
+   --> Anything which has a relation is a attribute
+   
+   For example 
+   		-> Employee has a address (It will be attribute of class) -> Bcoz if we create a class it will get the properties of parent class.
+   																	 Address class will have the id,name. But address should not need id, name
+   																	 
+   		-> FullTimeEmployee is a employee so it will extend Employee
+    
+ 
+5. Why multiple inheritance is not supported?
+	If fullTimeEmployee extends Employee, Person
+	
+	and we call display method then JVM will get confused that which display is being called? Either of Employee or of person?
+	It will add ambiguity to the code
+	
+	Solution is Interface
+
+	
+6. Is JVM platform independent? 
+   -> Ans - No JVM is not platform independent
+   
+7. Difference between super() and super.
+	-> super() - its use to call the constructor of the parent class
+	-> super. -> its use to point to the object of parent class
+	
+8. Difference between this() and this.
+	- this() - its use to call the constructor of the current class
+	- this. -> its use to point to the object of current class
