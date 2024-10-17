@@ -68,4 +68,12 @@
 19. Different types of exception
 	- Compile Time (Checked Exception) - SqlException,FileNotFound, 
 	- Run Time (Unchecked Exception) - 
+	
+20. We can throws multiple but we can't throw multiple
+
+21. What is stream?
+
+22. How is ArrayList dynamic in size?
+
+
 
