@@ -75,5 +75,5 @@
 
 22. How is ArrayList dynamic in size?
 
-
+23. Difference between ArrayList.Remove(int index) and ArrayList.Remove(Object o)
 
