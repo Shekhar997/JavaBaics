@@ -77,3 +77,22 @@
 
 23. Difference between ArrayList.Remove(int index) and ArrayList.Remove(Object o)
 
+23. means when override equal method will check if two object are equal sa they are with same hash code. It will update the value else it will add new entry
+	(Simply) hash value of every key is checked if same hash value is there we check if key or object is same if yes will update the value
+	-> We can override equal method and return false to add new entry in hashmap for same hash value.
+
+	Two object can have same hashcode but are not equal
+	If two object are equal they should have the same hashcode
+	
+24. Name method of thread class?
+	Start()
+	run()
+	sleep()
+	join()
+	notify(0
+	notifyAll()
+	
+25. Difference between sleep() and yield() method
+
+
+
