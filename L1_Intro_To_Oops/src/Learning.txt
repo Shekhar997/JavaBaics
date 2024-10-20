@@ -84,7 +84,7 @@
 	Two object can have same hashcode but are not equal
 	If two object are equal they should have the same hashcode
 	
-24. Name method of thread class?
+24. Name 5 method of thread class?
 	Start()
 	run()
 	sleep()
@@ -94,5 +94,16 @@
 	
 25. Difference between sleep() and yield() method
 
+26. If we directly call Thread.run() method will it run?
+	- Yes it should run as a method. No thread properties are associated with it.
 
+27. run() -> Body of the thread which is to be executed. Thread.start() will call the Thread.run()
+
+28. What is deamon thread
+
+29. What are different thread scheduling algorithms
+	-> SCFH
+	-> primptive priority cycle
+	-> time slicing
+	-> round robin
 

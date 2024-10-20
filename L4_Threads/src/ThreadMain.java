@@ -6,11 +6,13 @@ public class ThreadMain {
 		
 		IntThread i1 = new IntThread("Thread 1");
 		
-		i1.start();
+		//i1.start();
+		i1.run();
 		
 		IntThread i2 = new IntThread("Thread 2");
-		
+		i2.setDaemon(true);
 		i2.start();
+		
 		
 		System.out.println("Thread name "+ i2.getName());
 		
@@ -26,6 +28,8 @@ public class ThreadMain {
 			  e.printStackTrace(); }
 			 
 		}
+		
+		//i2.start();
 
 	}
 
